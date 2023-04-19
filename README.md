@@ -1,4 +1,4 @@
-# Snake_Game
+# Snake Game
 Worked on this small project to try to add more projects to my portfolio.
 
 # Methods
