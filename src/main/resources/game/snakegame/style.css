@@ -9,14 +9,14 @@
 }
 
 .snake {
-    -fx-fill: #ff8ba8;
+    -fx-fill: #008fff;
     -fx-border-color: transparent;
     -fx-border-width: 1px;
 
 }
 
 .snake-head {
-    -fx-fill: #761d47;
+    -fx-fill: #0060fa;
     -fx-border-color: transparent;
     -fx-border-width: 1px;
 
@@ -31,5 +31,11 @@
 .label {
     -fx-font-family: Monospaced;
     -fx-font-size: 22;
+    -fx-font-weight: bold;
+}
+
+.game-over {
+    -fx-font-family: Monospaced;
+    -fx-font-size: 32;
     -fx-font-weight: bold;
 }

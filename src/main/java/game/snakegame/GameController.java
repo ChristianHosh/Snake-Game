@@ -51,7 +51,11 @@ public class GameController {
         createSnake();
         createFood();
 
+        gameOverLabel.setVisible(false);
+        newGameClock();
+    }
 
+    private void newGameClock() {
         gameClock = new Timer();
         gameClock.scheduleAtFixedRate(new TimerTask(){
             @Override
@@ -168,6 +172,8 @@ public class GameController {
 
     private void gameover() {
         System.out.println("GAME LOST!\tSCORE: " + score);
+        gameOverLabel.toFront();
+        gameOverLabel.setVisible(true);
         gameScreen.getChildren().remove(snakeHead);
         gameClock.cancel();
     }
@@ -205,4 +211,5 @@ public class GameController {
         if (direction == 2) return;
         direction = 0;
     }
+
 }

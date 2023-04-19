@@ -25,7 +25,6 @@ public class GameDriver extends Application {
                 case DOWN -> gameController.keyDown();
                 case LEFT -> gameController.keyLeft();
                 case RIGHT -> gameController.keyRight();
-
             }
         });
         stage.setTitle("Snake Game!");
