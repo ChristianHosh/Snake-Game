@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="700.0" styleClass="screen" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.snakegame.GameController">
+   <children>
+      <AnchorPane fx:id="gameScreen" layoutX="48.0" layoutY="48.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="604.0" styleClass="game-field" AnchorPane.bottomAnchor="48.0">
+         <children>
+            <Label fx:id="scoreLabel" layoutX="14.0" layoutY="14.0" text="SCORE:" textFill="#000000cc" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+            <Label fx:id="gameOverLabel" layoutX="229.0" layoutY="288.0" styleClass="game-over" text="Game Over !" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

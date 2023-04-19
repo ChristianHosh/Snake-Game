@@ -1,0 +1,35 @@
+.screen {
+    -fx-background-color: #232730;
+}
+
+.game-field {
+    -fx-background-color: #7c874a;
+    -fx-border-color: BLACK;
+    -fx-border-width: 2px;
+}
+
+.snake {
+    -fx-fill: #ff8ba8;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+
+}
+
+.snake-head {
+    -fx-fill: #761d47;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+
+}
+
+.food {
+    -fx-border-color: #f9bc40;
+    -fx-fill: #fbd17d;
+    -fx-border-width: 5px;
+}
+
+.label {
+    -fx-font-family: Monospaced;
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+}
